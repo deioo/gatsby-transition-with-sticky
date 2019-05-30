@@ -620,3 +620,10 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+/* Enable this block to make sticky work */
+/*
+ body .tl-edges {
+   overflow-x: unset;
+ }
+*/
