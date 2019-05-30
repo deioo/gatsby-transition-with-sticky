@@ -621,9 +621,14 @@ pre tt:after {
   }
 }
 
-/* Enable this block to make sticky work */
+/* Enable this block to make sticky work, but break anilink courtains */
 /*
  body .tl-edges {
    overflow-x: unset;
  }
 */
+
+/* Enable this block to make position: fixed work, doesn't seem to break anything */
+body .tl-wrapper.tl-wrapper-status--entered {
+  transform: none !important;
+}
